@@ -1,7 +1,6 @@
 image: 
   file: .gitpod.dockerfile
 
-ports:
-  - port: 27017
-    onOpen: open-browser
-    visibility: public
+vscode:
+  extensions: 
+    - Adrien.VisualStudioDarkTheme
