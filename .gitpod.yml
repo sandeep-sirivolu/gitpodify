@@ -1,3 +1,7 @@
 image: 
   file: .gitpod.dockerfile
-  
+
+ports:
+  - port: 27042
+    onOpen: open-browser
+    visibility: public
