@@ -1,1 +1,1 @@
-FROM mysql-server:tag
+FROM bitnami/mysql:latest
